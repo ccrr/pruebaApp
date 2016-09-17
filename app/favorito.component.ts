@@ -11,7 +11,7 @@ import { Component, Input, Output,EventEmitter } from 'angular2/core'
             `]
 })
 export class FavoritoComponent {
-    titulo = "Prueba favorito con estrella";
+    titulo = "Prueba favorito con estrella cr";
     
     @Input() isFavorito=false;
     @Output() change = new EventEmitter();

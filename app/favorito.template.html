@@ -1,0 +1,10 @@
+<h2>Favorito</h2>
+{{ titulo }}
+<h2>
+    <i 
+        class="glyphicon" 
+        [class.glyphicon-star-empty]="!isFavorito"
+        [class.glyphicon-star]="isFavorito"
+        (click)="onClick()">
+    </i> 
+</h2>
